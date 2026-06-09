@@ -18,14 +18,14 @@
     }
 
         }*/
-void main(){
+/*  void main(){
     int [][] attendance =new int[5][3];
     int [][] studentattendance={
             {0,1,0},
             {1,0,0},
             {1,1,1},
             {1,0,1},
-            {0,0,0}
+             {0,0,0}
     };
    for(int row=0;row<studentattendance.length; row++){
        System.out.println("student"+(1+row)+":");
@@ -39,6 +39,41 @@ void main(){
        }
        System.out.println(" ");
    }
-
-
+}*/
+/*void main() {
+    int result = add(5, 4);
+    System.out.println(result);
+    System.out.println(add(5, 5));
 }
+    public int add (int a,int b){
+        return a+b;
+    }*/
+/*void main() {
+    int result = sub(5, 4);
+    System.out.println(result);
+    System.out.println(sub(5, 5));
+}
+public int sub (int a,int b){
+    return a-b;
+}*/
+/*void main() {
+    int result = multi(5, 4);
+    System.out.println(result);
+    System.out.println(multi(5, 5));
+}
+public int multi(int a,int b){
+    return a*b;
+}*/
+void main() {
+    int result = div(5, 4);
+    System.out.println(result);
+    System.out.println(div(5, 5));
+}
+public int div (int a,int b){
+    return a/b;
+}
+
+
+
+
+
