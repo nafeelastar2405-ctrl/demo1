@@ -64,16 +64,18 @@ public int sub (int a,int b){
 public int multi(int a,int b){
     return a*b;
 }*/
-void main() {
+/*void main() {
     int result = div(5, 4);
     System.out.println(result);
     System.out.println(div(5, 5));
 }
 public int div (int a,int b){
     return a/b;
-}
+}*/
 
+/*void main(){
+    String name="vetias";
 
-
-
+            System.out.println(name.toUpperCase());
+}*/
 
