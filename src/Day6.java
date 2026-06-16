@@ -49,7 +49,7 @@
     }
 }*/
 
-public class Day6 {
+ /*public class Day6 {
     static class Attributes {
         String Name;
         String regno;
@@ -85,7 +85,7 @@ public static void main(String[]args){
 
     }
 
-    }
+    }*/
 
 
 
