@@ -60,9 +60,9 @@ public class day10{
     static void main(){
         LinkedList<Student>students=new LinkedList<>();
         students.add(new Student("Aishu",101,85));
-        students.add(new Student("nafe",102,90));
-        students.add(new Student("gopi",103,87));
-        students.add(new Student("pra",104,78));
+        students.add(new Student("ram",102,90));
+        students.add(new Student("pooja",103,87));
+        students.add(new Student("megha",104,78));
         students.add(new Student("ravi",105,89));
         System.out.println();
         for(Student s:students){
@@ -80,10 +80,11 @@ public class day10{
                 break;
             }
         }
-        System.out.println("\nAfter updating nafe marks:");
+        System.out.println("\nAfter updating ravi marks:");
         for(Student s:students){
             System.out.println(s);
 
         }
     }
 }
+
