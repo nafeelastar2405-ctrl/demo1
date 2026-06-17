@@ -80,7 +80,7 @@ public class day10{
                 break;
             }
         }
-        System.out.println("\nAfter updating Ravi's marks:");
+        System.out.println("\nAfter updating nafe marks:");
         for(Student s:students){
             System.out.println(s);
 
