@@ -55,7 +55,7 @@ public class day7 {
         OnDutyRequest onDutyRequest = new OnDutyRequest("nafeela", "24-05-2008", "Culturals");
         onDutyRequest.rejectOnDutyRequest();
     }
-}  */
+}
 /*public class day7 {
     static class payment{
         String amount;
@@ -99,7 +99,7 @@ public class day7 {
         }
      }
      }
- */
+
 public class day7{
 
     interface Employee {
@@ -172,4 +172,4 @@ public class day7{
         System.out.println("Salary : " + checking.Salary());
         checking.work();
     }
-}
+}*/
