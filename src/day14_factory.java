@@ -19,7 +19,7 @@
                         case "Email" -> factory.new EmailNotification();
                         case "Whatsapp" -> factory.new WhatsappNotification();
                         default -> throw new IllegalArgumentException("Invalid notification type: " + type);
-                    };
+                   };
                 }
 
                 static void main() {
@@ -31,7 +31,7 @@
 
         }
 */
-/*public class day14_factory {
+ public class day14_factory {
 
     interface Notification {
         void send(String to, String message);
@@ -67,8 +67,8 @@
         getNotification(factory, type)
                 .send("240824", "Amount 800 Credited");
     }
-}*/
-public class day14_factory {
+}
+/*public class day14_factory {
 
     interface Notification {
         void send(String to, String message);
@@ -104,4 +104,4 @@ public class day14_factory {
         getNotification(factory, type)
                 .send("240824", "Hi Layaha");
     }
-}
+}*/
